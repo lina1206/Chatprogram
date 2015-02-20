@@ -16,6 +16,7 @@ public class Download implements Runnable{
     public FileOutputStream Out;
     public ChatFrame ui;
     
+    // bla bla
     public Download(String saveTo, ChatFrame ui){
         try {
             server = new ServerSocket(0);
